@@ -22,6 +22,7 @@ const userRouter = require('./routes/userRoutes');
 // Method 2
 app.use(express.json());     // does the same thing as the previous middleware function, but it's built-in
 
+// Rounting
 app.use(userRouter);
 
 // Displaying html file
